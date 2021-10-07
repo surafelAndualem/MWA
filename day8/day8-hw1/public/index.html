@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="meanGames">
+<head>
+   
+<title>MEAN Games</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/custom.css" rel="stylesheet" />
+</head>
+<body>
+<h1>MEAN Games homepage.</h1>
+<div ng-init="name='jack'">
+    Hello{{name}}
+</div>
+<div ng-view>
+    
+</div>
+<script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular-route/angular-route.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angularroute.min.js"></script> -->
+<script src="angular-app/app.js"></script>
+<script src="angular-app/game-list/game-list-controller.js"></script>
+<script src="angular-app/game-data-factory/game-data-factory.js"></script>
+<script src="angular-app/game-display/game-display-controller.js"></script>
+
+<footer class="footer">
+<div class="container">
+<p class="text-muted text-center">
+
+<a href="https://compro.miu.edu" target="_blank"><img src="/images/compro-web-logo-442x112.webp" height="60"
+ alt="MIU Compro">
+</a>
+<br/>
+<small style="color: black;">
+    &copy;2021 surafel. All Rights Reserved.
+</small>
+</p>
+</div>
+</footer>
+
+
+</body>
+</html>
