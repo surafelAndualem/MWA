@@ -1,0 +1,7 @@
+
+Search: <input type="text" name="title" ng-model="search" style="color:black"/><BR/>
+<button type="submit" class="btn-success" ng-click="allB.Search(search)">Search</button><BR/>
+<ul><li ng-repeat="title in allB.result"><a href="#/book/{{title._id}}">{{title.title}}</a></li></ul>
+
+
+</div>

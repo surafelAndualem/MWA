@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="bookstore">
+<head >
+    <link rel="shortcut icon" href="#">
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title class="title">books</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/custom.css" rel="stylesheet" />
+</head>
+<body class="bg-primary ">
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular-route/angular-route.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angularroute.min.js"></script> -->
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-route.js"></script> -->
+<script src="./angular-app/app.js"></script>
+
+<script src="./angular-app/book-list/book-list-controller.js"></script>
+<script src="./angular-app/book-data-factory/book-data-factory.js"></script>
+<script src="./angular-app/book-display/book-dispay-controller.js"></script>
+<script src="angular-app/register/register-controller.js"></script>
+
+<h1>Books homepage.</h1>
+<!-- <div ng-init="name='jack'">
+    Hello{{name}} 
+</div> -->
+
+<div ng-view>
+     </div>
+
+
+
+<footer class="footer">
+<div class="container">
+<p class="text-muted text-center">
+
+<a href="https://compro.miu.edu" target="_blank"><img src="/images/books.jpg" height="60"
+ alt="MIU Compro">
+</a>
+<br/>
+<small style="color: black;">
+    &copy;2021 surafel. All Rights Reserved.
+</small>
+</p>
+</div>
+</footer>
+
+
+</body>
+</html>
