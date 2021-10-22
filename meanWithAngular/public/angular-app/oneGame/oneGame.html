@@ -1,0 +1,32 @@
+
+
+<h3>Information about game: <p>{{vm.game.title}}</p></h3>
+<p>
+Price: {{vm.game.price | currency}}<br/>
+Minimum Players: {{vm.game.minPlayers}}<br/>
+Maximum Players: {{vm.game.maxPlayers}}<br/>
+Minimum Age: {{vm.game.minAge}}</br>
+Publisher: {{vm.game.publisher.name}}
+</p>
+
+
+<form name="vm.gameForm"  >
+    
+    to update a games please fill up the form:<BR/>
+
+    publisher: <input type="text" name="designer"  ng-model="vm.gpublisher" style="color:black"/><BR/>
+
+    Year: <input type="text" name="year" ng-model="vm.gyear" style="color:black"/><BR/>
+
+    Title: <input type="text" name="title"  ng-model="vm.gtitle" style="color:black"/><BR/>
+
+    Price: <input type="text" name="price"  ng-model="vm.gprice" style="color:black"/><BR/>
+
+    Players: <input type="text" name="players" ng-model="vm.gplayers" style="color:black"/> <BR/>
+    Rate: <input type="text" name="rate" ng-model="vm.grate" style="color:black"/><BR/>
+    <button type="submit" class="btn-success" ng-click="vm.updateJob(vm.game._id)">AddGame</button>
+    <button type="submit" class="btn-success" ng-click="vm.deleteNobel(vm.game._id)">delete</button>
+    <button type="submit" class="btn-success" ng-click="vm.updateJob(oneN.resp._id)">AddGame</button>
+    <button type="submit" class="btn-success" ng-click="vm.updateGame(vm.game._id)">Update</button><BR/>
+
+</form> 

@@ -1,0 +1,23 @@
+{
+  "name": "angula-project",
+  "version": "1.0.0",
+  "description": "angular project",
+  "main": "app1.js",
+  "scripts": {
+    "start": "node app1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs",
+    "angular"
+  ],
+  "author": "surafel",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.8.2",
+    "angular-route": "^1.8.2",
+    "express": "^4.17.1",
+    "mocha": "^9.1.2",
+    "mongoose": "^6.0.8"
+  }
+}
